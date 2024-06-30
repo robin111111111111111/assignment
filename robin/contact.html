@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <navbar class="navbar">
+        <div class="logo">
+            <img src="https://th.bing.com/th/id/OIP.KBuZjyxYAuvYzhryALHh_AHaGw?w=217&h=198&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Logo">
+            <a href="index.html"><h1>Name</h1></a>
+        </div>
+        contact
+    </navbar>
+    <section class="intro-section">
+        <div class="container">
+            <p class="intro-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque nobis asperiores exercitationem est enim earum eum atque perferendis iste, fugit ipsa. Dicta reprehenderit libero possimus! Facilis similique ipsam quo maiores!</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <form action="javascript:submitForm()"onsubmit="return validate()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="genre">Favorite Genre:</label>
+                <select id="genre" name="genre" required>
+                    <option value="p">P</option>
+                    <option value="d">d</option>
+                    <option value="p">P</option>
+                    <option value="a">A</option>
+                </select><br>
+                    <input type="checkbox" id="subscribe" class="subscribe">Subscribe
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <small>All rights reserved</small>
+    </footer>
+</body>
+</html>
